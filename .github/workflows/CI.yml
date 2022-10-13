@@ -18,6 +18,7 @@ jobs:
 
       - name: Report Toolchain Versions
         run: |
+          rustup component add rustfmt
           cargo -V
           rustc -V
           rustfmt -V
