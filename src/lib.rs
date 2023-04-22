@@ -15,6 +15,6 @@ mod tests {
 
     #[test]
     fn test_find_devices() {
-        println!("{:?}", find_devices())
+        assert!(find_devices() == 0);
     }
 }
