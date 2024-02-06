@@ -10,4 +10,4 @@ cc = "1.0.79"
 
 [dependencies]
 lazy_static = "1.4.0"
-libc = "0.2.147"
+libc = "0.2.153"
